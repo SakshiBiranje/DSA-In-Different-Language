@@ -1,4 +1,3 @@
-import java.util.*;
 
 public class Sorting{
     public static void printArray(int arr[]) {
@@ -22,5 +21,6 @@ public class Sorting{
             arr[i]=temp;
         }
         printArray(arr);
+        
     }
 }
