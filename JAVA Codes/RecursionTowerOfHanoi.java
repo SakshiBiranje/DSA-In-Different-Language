@@ -8,8 +8,8 @@ public class RecursionTowerOfHanoi {
         System.out.println("transfer disk " + n + " from " + src + " to "+dest);
         TowerOfHanoi(n-1, helper,src, dest); 
     } 
-    public static void main(String args[]){ 
-        
+    public static void main(String args[])
+    { 
         int n=3; 
         TowerOfHanoi(n,"S","H","D" );
     }
