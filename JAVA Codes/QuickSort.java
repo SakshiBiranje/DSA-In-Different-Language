@@ -2,9 +2,9 @@ import java.util.*;
 public class QuickSort {
     public static int partition(int array[], int low, int high) {
         int pivot = array[high];
-        int i = (low-1);
+        int i = low-1;
     
-        for(int j=low; j<high;j++){
+        for(int j=low; j<high; j++){
             if(array[j] < pivot){
                 i++;
                 //swapping
@@ -13,6 +13,7 @@ public class QuickSort {
                 array[j] = temp;
             }
         }
+        i++;
         int temp = array[i];
         array[i] = pivot;
         array[high] = temp;
