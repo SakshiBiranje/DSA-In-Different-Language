@@ -15,8 +15,6 @@ public static void main(String args[]){
     } else{
        System.out.println("Bit was non-zero");
     }
-
-
     //set bit
     int newNumber = bitMask | n;
     System.out.println(newNumber);
