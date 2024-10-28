@@ -2,7 +2,8 @@ import java.util.*;
 import java.util.Scanner;
 
 class Majority_Element{
-    public int Majority(int[] nums){
+    public int Majority(int[] nums)
+    {
         int count =0;
         int majority_ele = nums[0];
 
@@ -20,7 +21,8 @@ class Majority_Element{
         return majority_ele;
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array elements: ");
         int size = sc.nextInt();
