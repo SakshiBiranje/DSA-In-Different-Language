@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class QuickSort 
 {
     public static int partition(int array[], int low, int high) 
@@ -41,7 +42,8 @@ public class QuickSort
 
         quickSort(array, 0, n-1);
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             System.out.print(array[i] + " ");
         } 
         System.out.println();       
