@@ -1,7 +1,8 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-class ListNode {
+class ListNode 
+{
     int val;
     ListNode next;
     ListNode(int x) {
