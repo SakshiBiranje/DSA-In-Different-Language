@@ -84,7 +84,9 @@ public class Solution {
         boolean hasCycle = solution.hasCycle(head);
         if (hasCycle) {
             System.out.println("The linked list has a cycle.");
-        } else {
+        }
+         else 
+        {
             System.out.println("The linked list does not have a cycle.");
         }
 
