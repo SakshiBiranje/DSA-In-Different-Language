@@ -12,7 +12,8 @@ public class RadixSort {
         return max;
     }
 
-    public static void countingSort(int array[], int size, int exp) {
+    public static void countingSort(int array[], int size, int exp) 
+    {
         int output[] = new int[size];
         int count[] = new int[10];
 
