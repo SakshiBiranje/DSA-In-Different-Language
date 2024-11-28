@@ -4,7 +4,6 @@ public class bits{
 public static void main(String args[]){
 //Scanner sc = new Scanner(System.in);
 //int oper = sc.nextInt();
-
     int n=5;
     int pos=1;
     int bitMask=1<<pos;
